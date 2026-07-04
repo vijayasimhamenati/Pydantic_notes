@@ -1,0 +1,45 @@
+# =========================
+# Python & Bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+.env
+
+# =========================
+# Jupyter Lab & Notebooks
+# =========================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.jupyter/
+profile_default/
+ipython_config.py
+
+# =========================
+# Type Checking (Useful for Pydantic)
+# =========================
+.mypy_cache/
+.pyre/
+.typecheck/
+
+# =========================
+# IDEs & Editors
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# OS Specific files
+# =========================
+Thumbs.db
+ehthumbs.db
+.DS_Store
